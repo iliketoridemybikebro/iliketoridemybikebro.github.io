@@ -9,7 +9,7 @@ async function main() {
     console.log(randomItem.name)
     console.log(encodeURI(`https://csgoskins.gg/?query=${randomItem.market_hash_name}`))
 
-    //document.getElementById("skinImage").src = randomItem.image
+    document.getElementById("skinImage").src = randomItem.image
     skinLink.href = encodeURI("https://csgoskins.gg/?query=" + randomItem.name) + "%20(Factory%20New)"
     skinLink.textContent = randomItem.name
     skinLink.style.color = randomItem.rarity.color
