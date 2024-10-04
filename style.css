@@ -1,5 +1,8 @@
 body {
     background-color: rgb(50, 50, 50);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Main div for showing the opened skin */
@@ -11,6 +14,7 @@ body {
     background-image: url("img/blurrybackground.jfif");
     background-repeat: no-repeat;
     background-size: 180%;  
+    text-align: center;
 }
 
 #skinName {
@@ -27,6 +31,16 @@ body {
     object-fit: contain;
     width: 100%;
     height: 100%;
+    margin-bottom: 20px;
+}
+
+#skinLink {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 2em;
 }
 
 /* Generic classes */
